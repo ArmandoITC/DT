@@ -1,0 +1,17 @@
+Servidor puente:
+67.217.242.228
+usuario: armando
+contraseña: CONtrasena20.
+
+Comando para abrir el tunel:
+ssh -L 9999:74.208.36.209:5432 armando@67.217.242.228
+ping -i 30 google.com
+
+
+Base de datos:
+Puerto: 9999
+Host: localhost
+usuario: armando
+dbuser: armando
+contraseña: CONtrasena20.
+base de datos: iop
